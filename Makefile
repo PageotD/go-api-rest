@@ -14,7 +14,7 @@ swagger.gen:
 
 swagger.validate:
 	@echo "Validating swagger"
-	swagger validate pkg/swagger/swagger.yml
+	${HOME}/go/bin/swagger validate pkg/swagger/swagger.yml
 
 swagger.doc:
 	@echo "Generating Swagger documentation"
