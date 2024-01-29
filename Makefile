@@ -18,7 +18,7 @@ swagger.validate:
 
 swagger.doc:
 	@echo "Generating Swagger documentation"
-	docker run -i yousan/swagger-yaml-to-html < pkg/swagger/swagger.yml > doc/index.html
+	python3 utils/swagger-yml-to-html.py < pkg/swagger/swagger.yml > doc/index.html
 
 clean:
 	@echo "Cleaning up"
