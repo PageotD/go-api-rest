@@ -1,3 +1,3 @@
-module github.com/PageotD/go-api-rest.git
+module github.com/PageotD/go-api-rest
 
 go 1.18
